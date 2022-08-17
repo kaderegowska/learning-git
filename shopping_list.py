@@ -5,7 +5,8 @@ shopping = {
 shopping["mięsny"] = ["szynka", "kiełbasa"]
 list1 = shopping['piekarnia']
 list2 = shopping['warzywniak']
-amount = len(list1) + len(list2)
+list3 = shopping['mięsny']
+amount = len(list1) + len(list2) + len(list3)
 for i in range(len(list1)):
     list1[i] = list1[i].capitalize()
 for j in range(len(list2)):
