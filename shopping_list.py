@@ -2,6 +2,7 @@ shopping = {
     "piekarnia" : ["chleb", "bułki", "pączek"],
     "warzywniak" : ["marchew", "seler", "rukola"]
 }
+shopping["mięsny"] = ["szynka", "kiełbasa"]
 list1 = shopping['piekarnia']
 list2 = shopping['warzywniak']
 amount = len(list1) + len(list2)
